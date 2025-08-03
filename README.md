@@ -45,3 +45,15 @@ Results
 The initial SVM model achieved an accuracy of 93.33%. After hyperparameter tuning using GridSearchCV, the best parameters were found to be {'C': 0.1, 'gamma': 'scale', 'kernel': 'poly'}, and the improved model achieved an accuracy of 95.24% on the test set.
 
 The confusion matrices and classification reports for both the initial and best models are provided in the notebook output, showing the breakdown of correct and incorrect predictions for each species.
+
+
+MNIST Digit Classification using Decision Tree:-
+This notebook demonstrates the process of classifying handwritten digits from the MNIST dataset using a Decision Tree Classifier.
+
+The steps covered are:
+
+Loading the dataset: The MNIST dataset is loaded using fetch_openml.
+Data Preparation: The dataset is split into training and testing sets.
+Model Training: A Decision Tree Classifier is initialized and trained on the training data.
+Evaluation: The trained model is evaluated using accuracy, a confusion matrix, and a classification report.
+Visualization: The structure of the Decision Tree is visualized, and examples of correct and incorrect predictions are plotted.
